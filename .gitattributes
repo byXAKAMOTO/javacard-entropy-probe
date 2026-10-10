@@ -1,0 +1,4 @@
+# CAP files are ZIP archives: stored byte for byte, never converted or diffed as text. Git
+# would detect them as binary anyway; the ones in release/ are what goes on cards, and that is
+# not left to detection.
+*.cap binary

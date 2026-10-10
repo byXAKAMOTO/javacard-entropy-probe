@@ -1,0 +1,11 @@
+bin/
+*.cap
+# ...except the exact CAP of each release, versioned on purpose: bin/ is overwritten by
+# every build. See release/README.md.
+!release/**/*.cap
+*.jca
+*.exp
+*.class
+__pycache__/
+*.pyc
+entropy*.bin
